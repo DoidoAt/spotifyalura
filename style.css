@@ -39,6 +39,21 @@ body {
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+    transform: color 0.3s ease;
+}
+
+.sidebar nav ul li a :hover {
+    font-style: italic;
+    text-decoration: underline #fff;
+    color: #ffffff;
+}
+
+.sidebar nav ul li a .icon{
+    pointer-events: none;
+}
+
+.sidebar nav ul li a  .nav-item:active{
+    color: #ffffff;
 }
 
 .logo img {
