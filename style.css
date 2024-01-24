@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    background-color: #4B0082;
 }
 
 .sidebar {
@@ -12,13 +12,13 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: #000;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-    background: #121212;
+    background: #131212;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -34,7 +34,7 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: #DAA520;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
@@ -45,7 +45,7 @@ body {
 .sidebar nav ul li a :hover {
     font-style: italic;
     text-decoration: underline #fff;
-    color: #ffffff;
+    color: #FFD700;
 }
 
 .sidebar nav ul li a .icon{
@@ -57,7 +57,7 @@ body {
 }
 
 .logo img {
-    width: 80px;
+    width: 120px;
 }
 
 .library {
@@ -67,7 +67,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: #FFD700;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -80,7 +80,7 @@ body {
 
 .library .library__button {
     margin-right: 10px;
-    color: #b3b3b3;
+    color: #DAA520;
     background-color: transparent;
     border: 0px;
     font-size: 14px;
@@ -140,7 +140,7 @@ body {
 .section-playlist .section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: #DAA520;
     color: #000;
     border-radius: 20px;
     font-size: 12px;
@@ -192,7 +192,7 @@ body {
 .section-podcast .section-podcast__content .section-podcast__button {
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: #DAA520;
     color: #000;
     border-radius: 20px;
     font-size: 12px;
