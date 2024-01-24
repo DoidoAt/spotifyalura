@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
 
-    <link rel="stylesheet" href="reset.css">
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/var.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
     
 
     <link 
@@ -26,7 +27,7 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
             </div>
             <ul>
@@ -77,11 +78,11 @@
                 </div>
             </section>
 
-            <section class="section-podcast">
-                <div class="section-podcast__content">
+            <section class="section-playlist">
+                <div class="section-playlist__content">
                     <span class="text title">Que tal seguir um Podcast novo?</span>
                     <span class="text substitute">Avisaremos você sobre novos episódios</span>
-                    <button class="section-podcast__button">
+                    <button class="section-playlist__button">
                         <span>Criar Playlist</span>
                     </button>
                 </div>
@@ -99,7 +100,38 @@
             </div>
 
         </div>
+
+
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+
+                <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                </div>
+
+                <div class="header__login">
+                    <button class="subscribe">
+                        Inscreva-se
+                    </button>
+                    <button class="login">
+                        Entrar
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </main>
 
     <div class="footer">
         <footer class="sub-footer">
@@ -120,5 +152,6 @@
             </div>
         </footer>
     </div>
+
 </body>
 </html>
