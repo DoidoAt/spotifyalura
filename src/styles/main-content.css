@@ -36,8 +36,6 @@
     background: var(--bg-icon);
     background-color: var(--bg-arrow-color);
     border-radius: 50%;
-    border: none;
-    cursor: pointer;
 }
 
 .header__login {
@@ -79,8 +77,8 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
-    border: none;
-    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
 }
 
 .header__login .login {
@@ -91,8 +89,8 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
-    border: none;
-    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
 }
 
 .header__secoes {
@@ -148,7 +146,7 @@
 }
 
 .cards .card__button {
-    border: none;
     background-color: var(--bg-icon);
-    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
 }
