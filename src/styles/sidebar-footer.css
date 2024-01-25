@@ -223,8 +223,6 @@ body {
 }
 
 .footer .sub-footer .footer-itens .footer-itens__button {
-    display: flex;
-    justify-content: center;
     background-color: #fff;
     color: #000;
     border-radius: 20px;
