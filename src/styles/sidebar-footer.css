@@ -15,13 +15,13 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #000;
+    background-color: var(--bg-color-black);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-    background: #000;
+    background: var(--bg-color-black);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -37,7 +37,7 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #DAA520;
+    color: var(--bg-color-gold);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
@@ -82,7 +82,7 @@ body {
 
 .library .library__button {
     margin-right: 10px;
-    color: #DAA520;
+    color: var(--bg-color-gold);
     background-color: transparent;
     border: 0px;
     font-size: 14px;
@@ -140,8 +140,8 @@ body {
 .section-playlist .section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
-    background-color: #DAA520;
-    color: #000;
+    background-color: var(--bg-color-gold);
+    color: var(--bg-color-black);
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
@@ -221,8 +221,8 @@ body {
 }
 
 .footer .sub-footer .footer-itens .footer-itens__button {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--bg-color-gold);
+    color: var(--bg-color-black);
     border-radius: 20px;
     font-size: 15px;
     font-weight: 700;
