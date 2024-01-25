@@ -94,3 +94,61 @@
     border: none;
     cursor: pointer;
 }
+
+.header__secoes {
+    margin: -5px 10px 0px 10px;
+    border-radius: 8px;
+    background-color: #000;
+}
+
+.secoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.secoes h2 {
+    margin: 10px 20px;
+}
+
+.secoes .playlist {
+    color: var(--bg-color-gold);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.secoes .tudo {
+    color: gray;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 10px 20px 20px;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--bg-icon);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    background-color: var(--bg-icon);
+}
+
+.cards img {
+    width: 200px;
+}
+.cards h2 {
+    text-align: center;
+    color: var(--bg-color-gold);
+}
+
+.cards .card__button {
+    border: none;
+    background-color: var(--bg-icon);
+    cursor: pointer;
+}

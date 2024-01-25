@@ -4,7 +4,8 @@
     
     /* COLORS */
     --bg-icon: #131313;
-    --bg--arrow-color: rgba(0,0,07);
+    --bg-arrow-color: rgba(0,0,07);
     --bg-back-color: #121212;
     --bg-color-gold: #DAA520;
+    --bg-color-black: #000;
 }
